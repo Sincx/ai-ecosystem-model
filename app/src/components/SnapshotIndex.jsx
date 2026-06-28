@@ -10,17 +10,19 @@ export default function SnapshotIndex({ snapshots }) {
 
   return (
     <div>
-      <input
-        type="text"
-        placeholder="Search pages…"
-        value={search}
-        onChange={e => setSearch(e.target.value)}
-        style={{
-          width: '100%', maxWidth: 400, background: 'var(--bg2)',
-          border: '1px solid var(--border)', borderRadius: 8, padding: '0.5rem 0.75rem',
-          color: 'var(--text)', fontSize: '0.85rem', marginBottom: '1rem', outline: 'none',
-        }}
-      />
+      <div className="snap-search">
+        <span className="snap-search-icon">⌕</span>
+        <input
+          type="text"
+          placeholder="Search pages…"
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+        />
+        {search && (
+          <button onClick={() => setSearch('')} style={{ background: 'none', border: 'none', color: 'var(--text4)', cursor: 'pointer', fontSize: '0.8rem', padding: 0 }}>✕</button>
+        )}
+      </div>
+
       <div className="snap-grid">
         {filtered.map((s, i) => (
           <div key={i} className="snap-card">
@@ -30,7 +32,9 @@ export default function SnapshotIndex({ snapshots }) {
           </div>
         ))}
         {filtered.length === 0 && (
-          <div style={{ color: 'var(--muted)', fontSize: '0.85rem' }}>No pages match.</div>
+          <div style={{ color: 'var(--text3)', fontSize: '0.85rem', padding: 'var(--sp8)', textAlign: 'center' }}>
+            No pages match "{search}"
+          </div>
         )}
       </div>
     </div>

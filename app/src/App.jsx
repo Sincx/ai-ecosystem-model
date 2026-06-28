@@ -1,32 +1,40 @@
 import { useState, useEffect } from 'react'
 import './styles.css'
-import LayerStack          from './components/LayerStack.jsx'
-import InvestmentTable     from './components/InvestmentTable.jsx'
-import Scenarios           from './components/Scenarios.jsx'
-import ConstraintEdges     from './components/ConstraintEdges.jsx'
-import SnapshotIndex       from './components/SnapshotIndex.jsx'
-import HyperscalerGraph    from './components/HyperscalerGraph.jsx'
-import PowerMap            from './components/PowerMap.jsx'
-import EcosystemFlow       from './components/EcosystemFlow.jsx'
-import ErrorBoundary       from './components/ErrorBoundary.jsx'
+import LayerStack       from './components/LayerStack.jsx'
+import InvestmentTable  from './components/InvestmentTable.jsx'
+import Scenarios        from './components/Scenarios.jsx'
+import ConstraintEdges  from './components/ConstraintEdges.jsx'
+import SnapshotIndex    from './components/SnapshotIndex.jsx'
+import HyperscalerGraph from './components/HyperscalerGraph.jsx'
+import PowerMap         from './components/PowerMap.jsx'
+import EcosystemFlow    from './components/EcosystemFlow.jsx'
+import ErrorBoundary    from './components/ErrorBoundary.jsx'
 
-const VIEWS = ['Stack', 'Signals', 'Flow', 'Hyperscalers', 'Power Map', 'Scenarios', 'Constraints', 'Wiki']
+// 8 → 5 tabs. Flow absorbs Hyperscalers; Model absorbs Stack+Constraints; Research absorbs Scenarios+Wiki
+const VIEWS = [
+  { id: 'Flow',     label: 'Flow',     sub: 'Supply chain' },
+  { id: 'Signals',  label: 'Signals',  sub: 'Investments' },
+  { id: 'Power',    label: 'Power',    sub: 'Global demand' },
+  { id: 'Model',    label: 'Model',    sub: 'Stack & constraints' },
+  { id: 'Research', label: 'Research', sub: 'Scenarios & wiki' },
+]
 
 async function loadJSON(path) {
   try {
     const r = await fetch(path)
     if (!r.ok) return null
     return r.json()
-  } catch {
-    return null
-  }
+  } catch { return null }
 }
 
 export default function App() {
-  const [view,    setView]    = useState('Stack')
-  const [data,    setData]    = useState({})
-  const [meta,    setMeta]    = useState(null)
-  const [loading, setLoading] = useState(true)
+  const [view,       setView]       = useState('Flow')
+  const [modelSub,   setModelSub]   = useState('stack')      // 'stack' | 'constraints'
+  const [researchSub, setResearchSub] = useState('scenarios') // 'scenarios' | 'wiki'
+  const [flowSub,    setFlowSub]    = useState('flow')       // 'flow' | 'hyperscalers'
+  const [data,       setData]       = useState({})
+  const [meta,       setMeta]       = useState(null)
+  const [loading,    setLoading]    = useState(true)
 
   useEffect(() => {
     Promise.all([
@@ -45,74 +53,96 @@ export default function App() {
 
   if (loading) {
     return (
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color: 'var(--muted)' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color: 'var(--text3)', fontSize: '0.85rem' }}>
         Loading model data…
       </div>
     )
   }
 
+  const genDate = meta ? new Date(meta.generated).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : ''
+
   return (
     <div className="app">
+      {/* ── Navigation ─────────────────────────────────────────────── */}
       <nav className="nav">
-        <h1>AI Ecosystem <span>Constraint-Edge Model</span></h1>
-        {VIEWS.map(v => (
-          <button key={v} className={view === v ? 'active' : ''} onClick={() => setView(v)}>{v}</button>
-        ))}
+        {/* Brand */}
+        <div className="nav-brand">
+          <span className="nav-brand-name">AI Capex Model</span>
+          <span className="nav-brand-sub">Constraint-Edge Framework</span>
+        </div>
+
+        {/* Tabs */}
+        <div className="nav-tabs">
+          {VIEWS.map(v => (
+            <button
+              key={v.id}
+              className={`nav-tab${view === v.id ? ' active' : ''}`}
+              onClick={() => setView(v.id)}
+            >
+              {v.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Meta — right side, compact */}
+        <div className="nav-meta">
+          {meta && (
+            <>
+              <div className="nav-live">
+                <span className="live-dot" />
+                {genDate}
+              </div>
+              <span className="nav-pages">{meta.pages_indexed} pages</span>
+            </>
+          )}
+        </div>
       </nav>
 
-      {meta && (
-        <div className="meta-bar">
-          <span><span className="dot" />Live</span>
-          <span>Generated: <strong>{new Date(meta.generated).toLocaleString()}</strong></span>
-          <span>Wiki pages indexed: <strong>{meta.pages_indexed}</strong></span>
-          <span>Wiki: <strong>{meta.wiki_dir}</strong></span>
-        </div>
-      )}
-
-      {view === 'Stack' && data.layers && (
+      {/* ── Flow (Supply Chain + Hyperscalers) ──────────────────────── */}
+      {view === 'Flow' && (
         <>
           <div className="section-title">
-            AI Infrastructure Stack <span>L0 → L5 · click a layer to expand</span>
+            Supply Chain Flow
+            <span>L5 (demand) ← L0 (infrastructure) · click a company to inspect</span>
           </div>
-          <LayerStack layers={data.layers} />
+
+          {/* Sub-toggle */}
+          <div className="filter-row" style={{ marginBottom: 'var(--sp6)' }}>
+            <span className="filter-label">View</span>
+            <button className={`filter-btn${flowSub === 'flow' ? ' active' : ''}`} onClick={() => setFlowSub('flow')}>
+              Full Ecosystem
+            </button>
+            <button className={`filter-btn${flowSub === 'hyperscalers' ? ' active' : ''}`} onClick={() => setFlowSub('hyperscalers')}>
+              Hyperscaler Deep-Dive
+            </button>
+          </div>
+
+          <ErrorBoundary>
+            {flowSub === 'flow'
+              ? <EcosystemFlow />
+              : <HyperscalerGraph />
+            }
+          </ErrorBoundary>
         </>
       )}
 
+      {/* ── Signals ─────────────────────────────────────────────────── */}
       {view === 'Signals' && data.signals && (
         <>
           <div className="section-title">
-            Investment Signals <span>{data.signals.length} entities · filter by layer or tier</span>
+            Investment Signals
+            <span>{data.signals.length} entities · filter by layer or tier</span>
           </div>
           <InvestmentTable signals={data.signals} />
         </>
       )}
 
-      {view === 'Flow' && (
+      {/* ── Power Map ───────────────────────────────────────────────── */}
+      {view === 'Power' && (
         <>
           <div className="section-title">
-            Ecosystem Supply Chain Flow <span>L5 (demand) ← L0 (infrastructure) · click a company to inspect · hover edges for $ values</span>
-          </div>
-          <ErrorBoundary>
-            <EcosystemFlow />
-          </ErrorBoundary>
-        </>
-      )}
-
-      {view === 'Hyperscalers' && (
-        <>
-          <div className="section-title">
-            Hyperscaler Dependency Graph <span>click a hyperscaler · drag nodes · scroll to zoom</span>
-          </div>
-          <ErrorBoundary>
-            <HyperscalerGraph />
-          </ErrorBoundary>
-        </>
-      )}
-
-      {view === 'Power Map' && (
-        <>
-          <div className="section-title">
-            AI DC Power Demand — World Map <span>hover clusters · toggle year · filter by region</span>
+            AI DC Power Demand
+            <span>Global clusters · hover for detail · toggle year</span>
           </div>
           <ErrorBoundary>
             <PowerMap />
@@ -120,32 +150,56 @@ export default function App() {
         </>
       )}
 
-      {view === 'Scenarios' && data.scenarios && (
+      {/* ── Model (Stack + Constraints) ─────────────────────────────── */}
+      {view === 'Model' && (
         <>
           <div className="section-title">
-            Scenario Analysis <span>Base 55% · Bull 25% · Bear 20%</span>
+            Model Structure
+            <span>6-layer stack and constraint propagation</span>
           </div>
-          <Scenarios scenarios={data.scenarios} />
+
+          {/* Sub-toggle */}
+          <div className="filter-row" style={{ marginBottom: 'var(--sp6)' }}>
+            <span className="filter-label">View</span>
+            <button className={`filter-btn${modelSub === 'stack' ? ' active' : ''}`} onClick={() => setModelSub('stack')}>
+              Layer Stack
+            </button>
+            <button className={`filter-btn${modelSub === 'constraints' ? ' active' : ''}`} onClick={() => setModelSub('constraints')}>
+              Constraint Edges
+            </button>
+          </div>
+
+          {modelSub === 'stack' && data.layers && <LayerStack layers={data.layers} />}
+          {modelSub === 'constraints' && data.edges && (
+            <div className="card">
+              <ConstraintEdges edges={data.edges} />
+            </div>
+          )}
         </>
       )}
 
-      {view === 'Constraints' && data.edges && (
+      {/* ── Research (Scenarios + Wiki) ─────────────────────────────── */}
+      {view === 'Research' && (
         <>
           <div className="section-title">
-            Constraint Propagation <span>how scarcity flows through the stack</span>
+            Research
+            <span>Macro scenarios and wiki reference pages</span>
           </div>
-          <div className="card">
-            <ConstraintEdges edges={data.edges} />
-          </div>
-        </>
-      )}
 
-      {view === 'Wiki' && data.snapshots && (
-        <>
-          <div className="section-title">
-            Wiki Pages <span>{data.snapshots.length} data pages indexed</span>
+          {/* Sub-toggle */}
+          <div className="filter-row" style={{ marginBottom: 'var(--sp6)' }}>
+            <span className="filter-label">View</span>
+            <button className={`filter-btn${researchSub === 'scenarios' ? ' active' : ''}`} onClick={() => setResearchSub('scenarios')}>
+              Scenarios
+            </button>
+            <button className={`filter-btn${researchSub === 'wiki' ? ' active' : ''}`} onClick={() => setResearchSub('wiki')}>
+              Wiki Pages
+              {data.snapshots && <span style={{ marginLeft: 6, fontSize: '0.68rem', opacity: 0.7 }}>{data.snapshots.length}</span>}
+            </button>
           </div>
-          <SnapshotIndex snapshots={data.snapshots} />
+
+          {researchSub === 'scenarios' && data.scenarios && <Scenarios scenarios={data.scenarios} />}
+          {researchSub === 'wiki' && data.snapshots && <SnapshotIndex snapshots={data.snapshots} />}
         </>
       )}
     </div>
