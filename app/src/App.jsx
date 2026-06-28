@@ -7,9 +7,10 @@ import ConstraintEdges     from './components/ConstraintEdges.jsx'
 import SnapshotIndex       from './components/SnapshotIndex.jsx'
 import HyperscalerGraph    from './components/HyperscalerGraph.jsx'
 import PowerMap            from './components/PowerMap.jsx'
+import EcosystemFlow       from './components/EcosystemFlow.jsx'
 import ErrorBoundary       from './components/ErrorBoundary.jsx'
 
-const VIEWS = ['Stack', 'Signals', 'Hyperscalers', 'Power Map', 'Scenarios', 'Constraints', 'Wiki']
+const VIEWS = ['Stack', 'Signals', 'Flow', 'Hyperscalers', 'Power Map', 'Scenarios', 'Constraints', 'Wiki']
 
 async function loadJSON(path) {
   try {
@@ -83,6 +84,17 @@ export default function App() {
             Investment Signals <span>{data.signals.length} entities · filter by layer or tier</span>
           </div>
           <InvestmentTable signals={data.signals} />
+        </>
+      )}
+
+      {view === 'Flow' && (
+        <>
+          <div className="section-title">
+            Ecosystem Supply Chain Flow <span>L5 (demand) ← L0 (infrastructure) · click a company to inspect · hover edges for $ values</span>
+          </div>
+          <ErrorBoundary>
+            <EcosystemFlow />
+          </ErrorBoundary>
         </>
       )}
 
