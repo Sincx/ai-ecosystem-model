@@ -42,6 +42,13 @@
     "oneliner": "Broadcom AI revenue hit $8.4B in Q1 FY2026 (+106% YoY), targeting $100B/year by 2027. Custom ASIC shipments will surpass GPU shipments by unit count by 2028. The inference layer — 2/3 of all AI compute — is migrating to custom silicon at 40–65% TCO advantage; training remains a NVIDIA stronghold."
   },
   {
+    "file": "data-datacenter-power-constraints-2026-06-28.md",
+    "date": "2026-06-28",
+    "title": "Data: AI Datacenter Power Constraints & BTM Buildout",
+    "tags": "[datacenters, power, btm, bloom-energy, constellation, hyperscalers, capex]",
+    "oneliner": ""
+  },
+  {
     "file": "data-dc-power-construction-tracker-2026-06-25.md",
     "date": "2026-06-25",
     "title": "Data: AI Data Centre & Power Plant Construction Tracker",
