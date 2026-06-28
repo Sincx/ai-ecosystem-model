@@ -69,6 +69,37 @@ export const NODES = [
     spark: genSpark(280, 4.3, 16.8, 3),
   },
 
+  {
+    id: 'bloom', name: 'Bloom Energy', ticker: 'BE', layer: 0, row: 3, type: 'public',
+    price: 22, change30d: 18.4, change6m: 64.8, marketCapB: 5.1,
+    revenue: [{ y: 'FY22', v: 0.97 }, { y: 'FY23', v: 1.33 }, { y: 'FY24', v: 1.56 }, { y: 'FY25E', v: 2.4 }],
+    inputs: [
+      { company: 'Natural gas suppliers', what: 'Fuel feed for solid-oxide fuel cells', valueB: 0.4, status: 'realized', date: 'Ongoing' },
+      { company: 'SK / materials vendors', what: 'Ceramic fuel cell stack components', valueB: 0.3, status: 'realized', date: 'Ongoing' },
+    ],
+    outputs: [
+      { company: 'Oracle (New Mexico BTM)', what: 'Fuel cells replacing gas turbines — Stargate campus', valueB: 0.4, status: 'committed', date: '2026–2028' },
+      { company: 'Hyperscaler BTM pipeline', what: 'Onsite power for 40GW+ BTM buildout by 2028', valueB: 1.2, status: 'committed', date: '2026–2029' },
+      { company: 'Utility & industrial', what: 'Non-DC fuel cell installations', valueB: 0.7, status: 'realized', date: 'Ongoing' },
+    ],
+    spark: genSpark(22, 18.4, 64.8, 21),
+  },
+  {
+    id: 'constellation', name: 'Constellation Energy', ticker: 'CEG', layer: 0, row: 4, type: 'public',
+    price: 295, change30d: 7.8, change6m: 34.6, marketCapB: 91,
+    revenue: [{ y: 'FY22', v: 20.7 }, { y: 'FY23', v: 23.6 }, { y: 'FY24', v: 25.0 }, { y: 'FY25E', v: 28.0 }],
+    inputs: [
+      { company: 'Uranium suppliers', what: 'Nuclear fuel — low-cost, long-term contracts', valueB: 1.8, status: 'realized', date: 'Ongoing' },
+      { company: 'Calpine (JV / acquired assets)', what: 'Gas peaker & CCGT fleet', valueB: 2.1, status: 'realized', date: 'Ongoing' },
+    ],
+    outputs: [
+      { company: 'Amazon AWS', what: 'Comanche Peak nuclear PPA — 1,200MW, 20-year deal', valueB: 1.6, status: 'committed', date: '2026–2046' },
+      { company: 'CyrusOne', what: 'Freestone Energy Center — 760MW campus co-location', valueB: 0.9, status: 'committed', date: '2026–2030' },
+      { company: 'Grid power (PJM / ERCOT)', what: 'Merchant nuclear + gas power sales', valueB: 22.0, status: 'realized', date: 'Ongoing' },
+    ],
+    spark: genSpark(295, 7.8, 34.6, 22),
+  },
+
   // ── L1 Physical DC / Tooling ─────────────────────────────────────────
   {
     id: 'digital_realty', name: 'Digital Realty', ticker: 'DLR', layer: 1, row: 0, type: 'public',
@@ -354,6 +385,13 @@ export const NODES = [
 // strokeWidth will be derived from valueB
 export const EDGES = [
   // L0 → L1
+  { source: 'bloom',         target: 'equinix',        valueB: 0.3,  label: 'BTM fuel cells — colo power' },
+  { source: 'constellation', target: 'digital_realty', valueB: 0.5,  label: 'Nuclear PPA — DC power supply' },
+
+  // L0 → L4 (direct BTM power to hyperscaler self-build DCs)
+  { source: 'bloom',         target: 'oracle',         valueB: 0.4,  label: 'Fuel cells — NM Stargate BTM' },
+  { source: 'constellation', target: 'amazon',         valueB: 1.6,  label: 'Comanche Peak — 1.2GW nuclear PPA' },
+
   { source: 'eaton',     target: 'digital_realty', valueB: 0.9,  label: 'UPS, switchgear' },
   { source: 'eaton',     target: 'equinix',        valueB: 0.6,  label: 'PDU, power mgmt' },
   { source: 'vertiv',    target: 'digital_realty', valueB: 1.2,  label: 'Liquid cooling systems' },
