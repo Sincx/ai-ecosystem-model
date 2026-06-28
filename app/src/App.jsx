@@ -93,7 +93,7 @@ export default function App() {
                 {genDate}
               </div>
               <span className="nav-pages">{meta.pages_indexed} pages</span>
-              <span className="nav-pages" style={{ color: 'var(--accent2)', borderColor: 'var(--accent)' }}>v0.5</span>
+              <span className="nav-pages" style={{ color: 'var(--accent2)', borderColor: 'var(--accent)' }}>v0.6</span>
             </>
           )}
         </div>
