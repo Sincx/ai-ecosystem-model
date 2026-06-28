@@ -1,0 +1,93 @@
+[
+  {
+    "file": "data-ai-chip-shipments-epoch-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: AI Chip Shipments — Epoch AI Database (Q1 2026)",
+    "tags": "[ai-chips, gpu, tpu, compute, epoch-ai, shipments, nvidia, google, amd, amazon, huawei]",
+    "oneliner": "*The Epoch AI database tracks quarterly shipment estimates for AI accelerators, normalised to H100-equivalents (H100e), to enable apples-to-apples comparison across chip generations.*"
+  },
+  {
+    "file": "data-ai-compute-token-economics-2026-06-26.md",
+    "date": "2026-06-26",
+    "title": "Data: AI Compute Cost and Token Economics (2026)",
+    "tags": "[ai, compute, token-economics, cost, gpu, electricity, inference, data-centres]",
+    "oneliner": "**Key dynamic:** Token prices have declined by ~95% in four years. This is not primarily margin compression — it reflects genuine hardware cost improvement (H100 → B200 → TPU v7) and model efficiency gains (smaller models achieving same benchmark scores). The decline is likely to continue but is now slowing as silicon and electricity costs hit physical limits."
+  },
+  {
+    "file": "data-ai-dc-financing-morgan-stanley-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: AI Data Centre Financing — Morgan Stanley Report (July 2025)",
+    "tags": "[data-centres, financing, capex, private-credit, infrastructure, morgan-stanley]",
+    "oneliner": "*\"We project a $800bn+ growth opportunity around data center investment via private credit, led by asset-based finance.\"*"
+  },
+  {
+    "file": "data-ai-enterprise-adoption-economist-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: AI Enterprise Adoption — Economist Enterprise / Databricks (2026)",
+    "tags": "[enterprise-ai, adoption, governance, agents, productivity, economist, databricks]",
+    "oneliner": ""
+  },
+  {
+    "file": "data-china-ai-cloud-silicon-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: China AI Cloud, Silicon & Infrastructure — Separate Supply Chain (June 2026)",
+    "tags": "[china, alibaba-cloud, tencent-cloud, baidu, bytedance, huawei-ascend, export-controls, ai-chips, cloud, layer-3, layer-4]",
+    "oneliner": "China's cloud AI market is ~$61B and growing at 21% CAGR; Huawei expects $12B Ascend chip revenue in 2026 (targeting 1.6M dies); ByteDance is spending $14B on NVIDIA chips in 2026 despite export controls; the China AI ecosystem is large, fast-growing, and on a diverging technology path."
+  },
+  {
+    "file": "data-custom-asic-broadcom-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: Custom Silicon & Broadcom ASIC — Hyperscaler XPU Market (June 2026)",
+    "tags": "[custom-silicon, asic, broadcom, xpu, tpu, trainium, mtia, maia, hyperscaler, ai-chips, layer-3]",
+    "oneliner": "Broadcom AI revenue hit $8.4B in Q1 FY2026 (+106% YoY), targeting $100B/year by 2027. Custom ASIC shipments will surpass GPU shipments by unit count by 2028. The inference layer — 2/3 of all AI compute — is migrating to custom silicon at 40–65% TCO advantage; training remains a NVIDIA stronghold."
+  },
+  {
+    "file": "data-dc-power-construction-tracker-2026-06-25.md",
+    "date": "2026-06-25",
+    "title": "Data: AI Data Centre & Power Plant Construction Tracker",
+    "tags": "[data-centres, power-plants, ai-infrastructure, construction, us-energy, europe-energy, nuclear, solar, wind, natural-gas, hyperscaler, tracker]",
+    "oneliner": "This is a living tracker. Update monthly using `/researcher data DC power construction tracker update`."
+  },
+  {
+    "file": "data-foundation-model-companies-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: Foundation Model Companies — Demand Layer (June 2026)",
+    "tags": "[foundation-models, openai, anthropic, google-deepmind, xai, meta-ai, mistral, deepseek, ai-demand, revenue, compute]",
+    "oneliner": "This page answers: **who are the anchor customers of the AI infrastructure build-out, what are they spending, and how are they monetising AI?**"
+  },
+  {
+    "file": "data-hbm-supply-chain-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: HBM Memory Supply Chain — SK Hynix / Samsung / Micron / CoWoS (June 2026)",
+    "tags": "[hbm, memory, sk-hynix, samsung, micron, cowos, tsmc, advanced-packaging, ai-supply-chain, dram, semiconductors]",
+    "oneliner": "**Investment thesis in one line:** HBM is where the AI infrastructure investment funnel narrows to a single pipe. SK Hynix controls ~58% of that pipe with 72% operating margins. The shortage is structural, not cyclical, and is expected to persist until at least 2027–2028."
+  },
+  {
+    "file": "data-hyperscaler-ai-revenue-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: Hyperscaler AI Revenue — Azure / AWS / GCP / Oracle (June 2026)",
+    "tags": "[hyperscaler, microsoft, amazon, google, oracle, azure, aws, gcp, oci, stargate, cloud, ai-revenue, capex, demand-layer]",
+    "oneliner": "**The one-line picture:** Google Cloud +63%, AWS +28%, Azure AI ARR +123%, Oracle OCI +93% — all four are accelerating into 2026. The hyperscalers' AI revenues are real and growing, and they are spending ahead of revenue at a ratio that has never been seen in cloud history. Oracle's $638B RPO backlog — up 363% YoY — is the starkest single data point of locked-in AI infrastructure demand."
+  },
+  {
+    "file": "data-liquid-cooling-dc-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: Liquid Cooling & DC Thermal Management — AI Data Centre (June 2026)",
+    "tags": "[liquid-cooling, data-centres, vertiv, schneider-electric, cooling, thermal, pue, ai-infrastructure, layer-1]",
+    "oneliner": "Vertiv has $15B+ backlog and guides +30% organic growth for 2026; NVIDIA's Rubin NVL72 rack at 120kW requires direct-to-chip liquid cooling; air cooling can only handle ~40–50kW per rack. Every new AI DC from 2025 onward is liquid-cooled."
+  },
+  {
+    "file": "data-power-equipment-ai-dc-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: Power Equipment & Grid Infrastructure — AI Data Centre Supply Chain (June 2026)",
+    "tags": "[power-equipment, data-centres, eaton, ge-vernova, quanta-services, vertiv, transformer, switchgear, ups, ai-infrastructure, layer-0]",
+    "oneliner": "Eaton DC orders +240% YoY, GE Vernova $163B backlog, Quanta $48.5B backlog, Vertiv $15B+ backlog. Combined these four companies have more than $248B in signed AI infrastructure work. No ASIC substitution risk exists at this layer — electricity is always required regardless of chip architecture."
+  },
+  {
+    "file": "data-tsmc-cowos-2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "Data: TSMC — CoWoS Packaging, Process Nodes & AI Revenue (June 2026)",
+    "tags": "[tsmc, cowos, advanced-packaging, n3, n2, ai-chips, foundry, semiconductor, layer-2, layer-3]",
+    "oneliner": "TSMC's N3 node is the fab for all current AI accelerators; N2 began revenue contribution March 2026; CoWoS capacity is expanding from ~70K WPM (end-2025) to 140–150K WPM (2026) and potentially 200K WPM (2027). NVIDIA holds >60% of CoWoS capacity. TSMC 2026 revenue growth forecast: ~30% driven by AI demand."
+  }
+]

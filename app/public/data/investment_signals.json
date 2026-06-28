@@ -1,0 +1,114 @@
+[
+  {
+    "entity": "SK Hynix",
+    "ticker": "000660.KS",
+    "layer": "L2",
+    "tier": 1,
+    "stars": 5,
+    "rationale": "72% HBM operating margin; HBM4 sole-source for Rubin; no viable alternative supplier"
+  },
+  {
+    "entity": "Eaton",
+    "ticker": "ETN",
+    "layer": "L0",
+    "tier": 1,
+    "stars": 5,
+    "rationale": "$22.8B backlog; DC orders +240% YoY; HVDC Rubin partnership; 80–100 week transformer lead times lock in backlog"
+  },
+  {
+    "entity": "TSMC",
+    "ticker": "TSM",
+    "layer": "L2",
+    "tier": 1,
+    "stars": 5,
+    "rationale": "CoWoS monopoly; manufactures NVIDIA GPUs AND Broadcom ASICs; ~30% revenue growth 2026; wins regardless of GPU vs ASIC outcome"
+  },
+  {
+    "entity": "Microsoft Azure",
+    "ticker": "MSFT",
+    "layer": "L4",
+    "tier": 1,
+    "stars": 5,
+    "rationale": "$13B+ AI ARR; OpenAI exclusivity; Copilot enterprise rollout; highest AI monetisation visibility of any hyperscaler"
+  },
+  {
+    "entity": "GE Vernova",
+    "ticker": "GEV",
+    "layer": "L0",
+    "tier": 2,
+    "stars": 4,
+    "rationale": "$163B backlog; gas turbine 100GW pipeline; DC Electrification orders in Q1 2026 exceeded all of 2025"
+  },
+  {
+    "entity": "NVIDIA",
+    "ticker": "NVDA",
+    "layer": "L3",
+    "tier": 2,
+    "stars": 4,
+    "rationale": "$1tr purchase orders; B300 now shipping; Rubin R100 sampling Q4 2026. Risk: inference ASIC substitution 2027–2028"
+  },
+  {
+    "entity": "Amazon AWS",
+    "ticker": "AMZN",
+    "layer": "L4",
+    "tier": 2,
+    "stars": 4,
+    "rationale": "$29B AI ARR; Trainium custom silicon reducing GPU dependency; broadest enterprise base"
+  },
+  {
+    "entity": "Oracle OCI",
+    "ticker": "ORCL",
+    "layer": "L4",
+    "tier": 2,
+    "stars": 4,
+    "rationale": "$638B RPO (+363% YoY); Stargate $300B partnership; fastest-growing hyperscaler at 77% IaaS growth"
+  },
+  {
+    "entity": "Micron",
+    "ticker": "MU",
+    "layer": "L2",
+    "tier": 2,
+    "stars": 4,
+    "rationale": "21% HBM share growing; sole US-listed HBM play; HBM4 ramp 2026–2027; beneficiary of SK Hynix capacity constraints"
+  },
+  {
+    "entity": "Broadcom",
+    "ticker": "AVGO",
+    "layer": "L3",
+    "tier": 2,
+    "stars": 4,
+    "rationale": "$8.4B Q1 AI revenue (+106%); $73B backlog; 70% ASIC market share; $100B/2027 target; networking silicon also growing"
+  },
+  {
+    "entity": "Quanta Services",
+    "ticker": "PWR",
+    "layer": "L0",
+    "tier": 3,
+    "stars": 3,
+    "rationale": "$48.5B record backlog; electrical construction; AI DC build is primary driver. Risk: execution, labour"
+  },
+  {
+    "entity": "CoreWeave",
+    "ticker": "CRWV",
+    "layer": "L4",
+    "tier": 3,
+    "stars": 3,
+    "rationale": "$99.4B RPO; neo-cloud GPU rental. Binary risk: $22B+ GPU-collateralised debt; NVIDIA customer concentration"
+  },
+  {
+    "entity": "AMD",
+    "ticker": "AMD",
+    "layer": "L3",
+    "tier": 3,
+    "stars": 3,
+    "rationale": "MI350X competitive on specs; $16.6B DC revenue FY2025. Ceiling: CoWoS ~8% allocation; CUDA ecosystem moat"
+  },
+  {
+    "entity": "Marvell",
+    "ticker": "MRVL",
+    "layer": "L3",
+    "tier": 3,
+    "stars": 3,
+    "rationale": "#2 ASIC design partner ~25% share; Amazon Trainium next-gen; growing but less diversified than Broadcom"
+  }
+]

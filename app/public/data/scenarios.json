@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Base Case",
+    "probability": 55,
+    "description": "Elastic demand: cheaper inference → more usage → capex deployed stays ~$650B/year. Hyperscaler AI revenue compounds 35–45% through 2027. ASIC substitutes inference gradually; NVIDIA maintains training dominance. HBM supply tightens on HBM4 transition.",
+    "implications": [
+      "SK Hynix, TSMC, Eaton, Microsoft outperform",
+      "NVIDIA inference share declines slowly",
+      "CoreWeave debt serviceable if RPO converts"
+    ],
+    "color": "#10b981"
+  },
+  {
+    "name": "Bull Case",
+    "probability": 25,
+    "description": "Demand explosion: AGI-adjacent breakthrough triggers emergency capex surge. Goldman's $765B (2026) estimate proves conservative. Power equipment and HBM lead times become acute choke points. All Tier 1 and Tier 2 investments dramatically outperform.",
+    "implications": [
+      "L0 power equipment (Eaton, GEV) biggest winners — lead times extend further",
+      "HBM spot prices spike; SK Hynix margin expands",
+      "NVIDIA order book doubles; CoWoS queues extend to 2029"
+    ],
+    "color": "#3b82f6"
+  },
+  {
+    "name": "Bear Case",
+    "probability": 20,
+    "description": "Demand plateau: enterprise AI adoption stalls; hyperscaler AI revenue misses expectations; capex pulled back. ASIC substitution accelerates faster than expected. CoreWeave debt refinancing fails.",
+    "implications": [
+      "NVIDIA inference revenue collapses; GPU spot prices fall",
+      "CoreWeave binary risk realises; contagion to GPU-collateralised credit markets",
+      "L0 order books survive (physical infrastructure contracts, not compute contracts)"
+    ],
+    "color": "#ef4444"
+  }
+]

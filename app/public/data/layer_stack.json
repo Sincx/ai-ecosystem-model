@@ -1,0 +1,91 @@
+[
+  {
+    "id": "L0",
+    "name": "Power & Cooling",
+    "description": "Electricity generation, transformers, switchgear, liquid cooling. 2.5–3.5 year lead time from order to compute availability.",
+    "constraint": "Transformer lead times 80–100 weeks; gas turbine 36–48 months. CoWoS and HBM cannot be installed until power is available.",
+    "entities": [
+      "Eaton (ETN)",
+      "GE Vernova (GEV)",
+      "Quanta Services (PWR)",
+      "Vertiv (VRT)",
+      "Siemens Energy",
+      "ABB"
+    ],
+    "color": "#f59e0b"
+  },
+  {
+    "id": "L1",
+    "name": "Physical Data Centre",
+    "description": "DC construction, real estate, network infrastructure, cooling systems deployment.",
+    "constraint": "18–24 month construction cycle; power availability gates groundbreak; zoning approvals add 6–12 months.",
+    "entities": [
+      "Digital Realty",
+      "Equinix",
+      "Hyperscaler-owned DCs",
+      "Compass",
+      "QTS"
+    ],
+    "color": "#f97316"
+  },
+  {
+    "id": "L2",
+    "name": "HBM + CoWoS Packaging",
+    "description": "High-Bandwidth Memory (HBM3E → HBM4) physically integrated with GPU dies via TSMC CoWoS packaging. Single-point-of-failure for GPU supply.",
+    "constraint": "TSMC CoWoS is the only viable advanced packaging vendor. NVIDIA holds >60% of 2026 CoWoS slots. HBM supply controlled by SK Hynix (58% share).",
+    "entities": [
+      "TSMC (TSM)",
+      "SK Hynix (000660.KS)",
+      "Samsung",
+      "Micron (MU)"
+    ],
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "L3",
+    "name": "AI Silicon",
+    "description": "GPU accelerators (NVIDIA, AMD) and custom ASICs (Broadcom/Marvell for hyperscaler XPUs). All manufactured at TSMC.",
+    "constraint": "NVIDIA holds $1tr in purchase orders. Broadcom ASIC at +44.6% CAGR taking inference share. AMD constrained by CUDA moat and CoWoS allocation (~8%).",
+    "entities": [
+      "NVIDIA (NVDA)",
+      "Broadcom (AVGO)",
+      "AMD (AMD)",
+      "Marvell (MRVL)",
+      "Google TPU",
+      "Amazon Trainium",
+      "Microsoft Maia"
+    ],
+    "color": "#06b6d4"
+  },
+  {
+    "id": "L4",
+    "name": "Cloud & Neo-Cloud",
+    "description": "Hyperscalers (Azure, AWS, GCP, Oracle OCI) and neo-clouds (CoreWeave, Lambda) that rent GPU compute to enterprises and foundation model companies.",
+    "constraint": "~$650B/year capex deployed here. CoreWeave $22B GPU-collateralised debt = binary tail risk. Oracle $638B RPO backlog locks in future revenue.",
+    "entities": [
+      "Microsoft Azure (MSFT)",
+      "Amazon AWS (AMZN)",
+      "Google GCP (GOOGL)",
+      "Oracle OCI (ORCL)",
+      "CoreWeave (CRWV)",
+      "Lambda Labs"
+    ],
+    "color": "#10b981"
+  },
+  {
+    "id": "L5",
+    "name": "Foundation Models",
+    "description": "Companies building and deploying frontier AI models. Rent compute from L4 or own it (Google, Meta). Revenue from API access, subscriptions, and enterprise contracts.",
+    "constraint": "Token price deflation (−70%/year) compresses margins. Inference cost is the binding constraint on model accessibility and revenue model viability.",
+    "entities": [
+      "OpenAI",
+      "Anthropic",
+      "Google DeepMind",
+      "Meta AI",
+      "xAI",
+      "Mistral",
+      "DeepSeek"
+    ],
+    "color": "#ec4899"
+  }
+]

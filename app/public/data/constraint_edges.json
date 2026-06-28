@@ -1,0 +1,33 @@
+[
+  {
+    "from": "L0",
+    "to": "L1",
+    "label": "No power = no DC. 2.5–3.5yr lag from order to compute-ready site."
+  },
+  {
+    "from": "L1",
+    "to": "L2",
+    "label": "No DC = no place to install servers. Construction gates chip deployment."
+  },
+  {
+    "from": "L2",
+    "to": "L3",
+    "label": "CoWoS is the packaging step that produces finished GPUs. No CoWoS = no GPU."
+  },
+  {
+    "from": "L3",
+    "to": "L4",
+    "label": "No chips = no compute supply for cloud providers to sell."
+  },
+  {
+    "from": "L4",
+    "to": "L5",
+    "label": "No cloud compute = no training runs. Token price at L4 sets model economics at L5."
+  },
+  {
+    "from": "L2",
+    "to": "L3",
+    "label": "HBM supply constrains GPU memory bandwidth; HBM4 shortage gates Rubin R100 volume.",
+    "secondary": true
+  }
+]

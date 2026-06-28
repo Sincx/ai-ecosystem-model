@@ -1,0 +1,773 @@
+[
+  {
+    "date": "2026-06-27",
+    "heading": "1. Market Overview",
+    "Metric": "Global HBM market size",
+    "Value": "~$35B",
+    "Date": "2025",
+    "Source": "Micron projection; multiple analysts"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "1. Market Overview",
+    "Metric": "Global HBM market size",
+    "Value": "~$54.6B (BofA est.)",
+    "Date": "2026E",
+    "Source": "Bank of America"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "1. Market Overview",
+    "Metric": "Global HBM market size",
+    "Value": "~$100B",
+    "Date": "2028E",
+    "Source": "Micron Technology"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "1. Market Overview",
+    "Metric": "HBM demand growth (YoY)",
+    "Value": "+130%",
+    "Date": "2025",
+    "Source": "Multiple analysts"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "1. Market Overview",
+    "Metric": "HBM demand growth (YoY, forecast)",
+    "Value": "+70%",
+    "Date": "2026E",
+    "Source": "Multiple analysts"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "1. Market Overview",
+    "Metric": "HBM CAGR (2025–2030 SK Hynix est.)",
+    "Value": "33%",
+    "Date": "—",
+    "Source": "SK Hynix"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "1. Market Overview",
+    "Metric": "HBM share of total DRAM wafer capacity",
+    "Value": "23–25%",
+    "Date": "2026E",
+    "Source": "TrendForce"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "1. Market Overview",
+    "Metric": "Supply status",
+    "Value": "Sold out through 2026",
+    "Date": "Jun 2026",
+    "Source": "All three suppliers"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "1. Market Overview",
+    "Metric": "Shortage expected to persist until",
+    "Value": "2027–2028",
+    "Date": "—",
+    "Source": "Samsung, SK Hynix management"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Revenue Share (Q1 2026 — Counterpoint Research)",
+    "Supplier": "SK Hynix",
+    "Revenue Share": "58%",
+    "Shipment Share (peak)": "62% (Q2 2025)",
+    "Notes": "Dominant leader; all 2026 supply sold"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Revenue Share (Q1 2026 — Counterpoint Research)",
+    "Supplier": "Samsung",
+    "Revenue Share": "21%",
+    "Shipment Share (peak)": "35–40% (pre-yield issues)",
+    "Notes": "Recovering from ~18-month qualification failure"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Revenue Share (Q1 2026 — Counterpoint Research)",
+    "Supplier": "Micron",
+    "Revenue Share": "21%",
+    "Shipment Share (peak)": "~4% (H1 2024)",
+    "Notes": "Fastest share gain; now equal with Samsung"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Market Share History",
+    "Supplier": "SK Hynix",
+    "2024 (full year)": "55%",
+    "H1 2025": "62%",
+    "Q3 2025": "57%",
+    "Q4 2025": "57%",
+    "Q1 2026": "58%"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Market Share History",
+    "Supplier": "Samsung",
+    "2024 (full year)": "41%",
+    "H1 2025": "17%",
+    "Q3 2025": "35%",
+    "Q4 2025": "~22%",
+    "Q1 2026": "21%"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Market Share History",
+    "Supplier": "Micron",
+    "2024 (full year)": "4%",
+    "H1 2025": "21%",
+    "Q3 2025": "11%",
+    "Q4 2025": "~21%",
+    "Q1 2026": "21%"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Financial Performance",
+    "Metric": "Full-year revenue",
+    "Value": "₩97.15 trillion ($71B)",
+    "Period": "FY2025"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Financial Performance",
+    "Metric": "Full-year revenue growth",
+    "Value": "+47% YoY",
+    "Period": "FY2025"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Financial Performance",
+    "Metric": "HBM revenue as % of total",
+    "Value": "~42%",
+    "Period": "FY2025"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Financial Performance",
+    "Metric": "HBM revenue growth (YoY)",
+    "Value": ">2× (doubled)",
+    "Period": "FY2025"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Financial Performance",
+    "Metric": "Q1 2026 revenue",
+    "Value": "₩52.6 trillion (~$38B)",
+    "Period": "Q1 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Financial Performance",
+    "Metric": "Q1 2026 revenue growth",
+    "Value": "+198% YoY",
+    "Period": "Q1 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Financial Performance",
+    "Metric": "Q1 2026 operating profit",
+    "Value": "₩37.6 trillion",
+    "Period": "Q1 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Financial Performance",
+    "Metric": "Q1 2026 operating margin",
+    "Value": "72% (record)",
+    "Period": "Q1 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Financial Performance",
+    "Metric": "Q1 2026 net margin",
+    "Value": "77%",
+    "Period": "Q1 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Capacity Expansion Plans",
+    "Facility": "M15X",
+    "Location": "Cheongju, Korea",
+    "Investment": "$14.6B",
+    "Capacity": "40K → 80K WPM",
+    "Timeline": "Starts May 2026; full ~80K WPM by 2027"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Capacity Expansion Plans",
+    "Facility": "P&T7 (packaging)",
+    "Location": "Cheongju",
+    "Investment": "—",
+    "Capacity": "New advanced packaging fab",
+    "Timeline": "Construction Apr 2026; ops by end-2027"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Capacity Expansion Plans",
+    "Facility": "Yongin campus",
+    "Location": "Yongin, Korea",
+    "Investment": "—",
+    "Capacity": "+360K WPM (DRAM)",
+    "Timeline": "Multi-year buildout"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Technology Roadmap",
+    "Product": "HBM3E 12-Hi",
+    "Status": "Mass production",
+    "Notes": "Primary current revenue driver"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Technology Roadmap",
+    "Product": "HBM4 12-Hi",
+    "Status": "Mass production; ~60–70% of NVIDIA Rubin allocation",
+    "Notes": "NVIDIA Vera Rubin platform"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Technology Roadmap",
+    "Product": "HBM4 16-Hi",
+    "Status": "In qualification / ramp",
+    "Notes": "Higher capacity stack (64 GB)"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Technology Roadmap",
+    "Product": "HBM4E",
+    "Status": "Sampling H2 2026; mass production 2027",
+    "Notes": "Next generation"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "The Qualification Failure (2024–2025)",
+    "Event": "Initial failure reports (thermal/power issues)",
+    "Date": "Apr 2024"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "The Qualification Failure (2024–2025)",
+    "Event": "Second qualification stumble",
+    "Date": "Jun 2025"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "The Qualification Failure (2024–2025)",
+    "Event": "Final NVIDIA qualification pass",
+    "Date": "Sep 2025"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "The Qualification Failure (2024–2025)",
+    "Event": "Market share trough",
+    "Date": "17% (H1 2025)"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM4 Recovery",
+    "Milestone": "NVIDIA HBM4 qualification passed",
+    "Date": "Jan/Feb 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM4 Recovery",
+    "Milestone": "HBM4 initial shipments to NVIDIA & AMD",
+    "Date": "Feb 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM4 Recovery",
+    "Milestone": "HBM4 allocation of NVIDIA Rubin supply",
+    "Date": "~25–30%"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM4 Recovery",
+    "Milestone": "HBM4E samples shipped (industry-first)",
+    "Date": "May 2026 — 3.6 TB/s bandwidth, 6 months ahead of SK Hynix"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM4 Recovery",
+    "Milestone": "2026 HBM capacity expansion plan",
+    "Date": "+50% YoY"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Market Position",
+    "Metric": "HBM market share",
+    "Value": "4% (H1 2024) → 21% (H1 2025) → 21% (Q1 2026)",
+    "Date": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Market Position",
+    "Metric": "2025 HBM supply",
+    "Value": "Sold out",
+    "Date": "2025"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Market Position",
+    "Metric": "2026 HBM pricing",
+    "Value": "Most contracts already signed",
+    "Date": "Early 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Technology Position",
+    "Product": "HBM3E 8-Hi",
+    "Status": "Mass production",
+    "Specs": "24 GB; 1.2 TB/s"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Technology Position",
+    "Product": "HBM3E 12-Hi",
+    "Status": "Mass production",
+    "Specs": "36 GB; >1.5 TB/s"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Technology Position",
+    "Product": "HBM4 12-Hi",
+    "Status": "Mass production Q1 2026",
+    "Specs": "36 GB; >2.8 TB/s"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Technology Position",
+    "Product": "HBM4E",
+    "Status": "Targeting 2027–2028",
+    "Specs": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Generation Specifications",
+    "Generation": "HBM2E",
+    "Stack Height": "8-Hi",
+    "Max Capacity": "16 GB",
+    "Peak Bandwidth": "460 GB/s",
+    "Interface Width": "1,024-bit",
+    "Mass Production": "2021",
+    "Key Use": "A100"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Generation Specifications",
+    "Generation": "HBM3",
+    "Stack Height": "8-Hi",
+    "Max Capacity": "24 GB",
+    "Peak Bandwidth": "819 GB/s",
+    "Interface Width": "1,024-bit",
+    "Mass Production": "2022",
+    "Key Use": "H100"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Generation Specifications",
+    "Generation": "HBM3E",
+    "Stack Height": "8-Hi / 12-Hi",
+    "Max Capacity": "24–36 GB",
+    "Peak Bandwidth": "1.2 TB/s",
+    "Interface Width": "1,024-bit",
+    "Mass Production": "2024",
+    "Key Use": "H200, B200, B300"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Generation Specifications",
+    "Generation": "HBM4",
+    "Stack Height": "12-Hi / 16-Hi",
+    "Max Capacity": "48–64 GB",
+    "Peak Bandwidth": "2.0–3.3 TB/s",
+    "Interface Width": "2,048-bit",
+    "Mass Production": "2026",
+    "Key Use": "Rubin (R100)"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Generation Specifications",
+    "Generation": "HBM4E",
+    "Stack Height": "TBD",
+    "Max Capacity": "TBD",
+    "Peak Bandwidth": "3.6+ TB/s",
+    "Interface Width": "2,048-bit",
+    "Mass Production": "2027E",
+    "Key Use": "Post-Rubin"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM Per GPU — Memory Scaling",
+    "GPU": "H100",
+    "Platform": "Hopper",
+    "HBM Type": "HBM3",
+    "Capacity": "80 GB",
+    "Bandwidth": "3.35 TB/s",
+    "HBM Stacks": "~5 stacks"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM Per GPU — Memory Scaling",
+    "GPU": "H200",
+    "Platform": "Hopper",
+    "HBM Type": "HBM3E",
+    "Capacity": "141 GB",
+    "Bandwidth": "4.89 TB/s",
+    "HBM Stacks": "~6 stacks"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM Per GPU — Memory Scaling",
+    "GPU": "B200",
+    "Platform": "Blackwell",
+    "HBM Type": "HBM3E",
+    "Capacity": "192 GB",
+    "Bandwidth": "8 TB/s",
+    "HBM Stacks": "8 stacks"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM Per GPU — Memory Scaling",
+    "GPU": "B300",
+    "Platform": "Blackwell Ultra",
+    "HBM Type": "HBM3E",
+    "Capacity": "288 GB",
+    "Bandwidth": "8 TB/s",
+    "HBM Stacks": "12 stacks"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "HBM Per GPU — Memory Scaling",
+    "GPU": "R100 (Rubin)",
+    "Platform": "Rubin",
+    "HBM Type": "HBM4",
+    "Capacity": "288 GB+",
+    "Bandwidth": "13–22 TB/s",
+    "HBM Stacks": "12 stacks"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Pricing by Generation",
+    "Product": "HBM3E 8-Hi",
+    "Stack Config": "8 layers",
+    "Capacity": "24 GB",
+    "Price/Stack": "~$200–240",
+    "Price/GB": "~$8–10",
+    "Notes": "Spot/contract varies"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Pricing by Generation",
+    "Product": "HBM3E 12-Hi",
+    "Stack Config": "12 layers",
+    "Capacity": "36 GB",
+    "Price/Stack": "~$300",
+    "Price/GB": "~$8–10",
+    "Notes": "Contract pricing; ~20% hike for 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Pricing by Generation",
+    "Product": "HBM3E peak (H1 2025)",
+    "Stack Config": "—",
+    "Capacity": "—",
+    "Price/Stack": "—",
+    "Price/GB": "~$17–20",
+    "Notes": "Peak during supply squeeze"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Pricing by Generation",
+    "Product": "HBM4 12-Hi",
+    "Stack Config": "12 layers",
+    "Capacity": "48 GB",
+    "Price/Stack": "~$500",
+    "Price/GB": "~$14",
+    "Notes": "~20% premium over HBM3E"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Pricing by Generation",
+    "Product": "HBM4 16-Hi",
+    "Stack Config": "16 layers",
+    "Capacity": "64 GB",
+    "Price/Stack": "Higher",
+    "Price/GB": "Higher",
+    "Notes": "Not yet widely priced"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Capacity Trajectory",
+    "Year-end": "2022",
+    "TSMC CoWoS Capacity": "~5,000 WPM",
+    "YoY Growth": "—",
+    "Notes": "Pre-AI baseline"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Capacity Trajectory",
+    "Year-end": "2023",
+    "TSMC CoWoS Capacity": "13,000 WPM",
+    "YoY Growth": "+160%",
+    "Notes": "AI GPU demand begins"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Capacity Trajectory",
+    "Year-end": "2024",
+    "TSMC CoWoS Capacity": "35,000 WPM",
+    "YoY Growth": "+169%",
+    "Notes": "Significant ramp"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Capacity Trajectory",
+    "Year-end": "2025",
+    "TSMC CoWoS Capacity": "75,000 WPM",
+    "YoY Growth": "+114%",
+    "Notes": "Doubled from 2024"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Capacity Trajectory",
+    "Year-end": "2026E",
+    "TSMC CoWoS Capacity": "120,000–130,000 WPM",
+    "YoY Growth": "~75%",
+    "Notes": "Target; currently tracking on schedule"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Capacity Trajectory",
+    "Year-end": "2027 (CAGR basis)",
+    "TSMC CoWoS Capacity": "~180,000+ WPM",
+    "YoY Growth": "—",
+    "Notes": "TSMC projects >80% CAGR 2022–2027"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Supply-Demand Balance",
+    "Metric": "Supply-demand gap (CoWoS)",
+    "Value": "~20% deficit",
+    "Date": "Early 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Supply-Demand Balance",
+    "Metric": "Expected gap by end-2026",
+    "Value": "~10% deficit",
+    "Date": "TrendForce, Jun 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Supply-Demand Balance",
+    "Metric": "NVIDIA's share of 2026 CoWoS capacity",
+    "Value": ">50% (800–850K wafers reserved)",
+    "Date": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Supply-Demand Balance",
+    "Metric": "OSAT outsourced CoWoS volume",
+    "Value": "240–270K wafers/year (2026E)",
+    "Date": "TSMC to Amkor, SPIL"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Supply-Demand Balance",
+    "Metric": "Total industry CoWoS capacity (incl. OSAT)",
+    "Value": "Approaching 200K WPM by end-2026",
+    "Date": "TrendForce"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Variants",
+    "Variant": "CoWoS-S (Silicon interposer)",
+    "Integration": "GPU + HBM side-by-side",
+    "Key Customer": "NVIDIA (H100/H200/B200)",
+    "Notes": "Most widely deployed"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Variants",
+    "Variant": "CoWoS-L (Local silicon interconnect bridge)",
+    "Integration": "Larger die sizes",
+    "Key Customer": "NVIDIA (B200 extended, R100)",
+    "Notes": "Higher density; fully booked"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Variants",
+    "Variant": "CoWoS-R (RDL interposer)",
+    "Integration": "Alternative approach",
+    "Key Customer": "AMD, others",
+    "Notes": "Lower cost; less performance"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "CoWoS Variants",
+    "Variant": "OSAT CoWoP (ASE)",
+    "Integration": "OSAT alternative",
+    "Key Customer": "Non-NVIDIA customers",
+    "Notes": "Rising due to TSMC CoWoS shortage"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. DRAM Market Ripple Effects",
+    "Metric": "HBM % of global DRAM wafer capacity (2026E)",
+    "Value": "23–25%",
+    "Source": "TrendForce; tech-insider.org"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. DRAM Market Ripple Effects",
+    "Metric": "Global DRAM capacity (2026E)",
+    "Value": "~40 EB",
+    "Source": "Multiple"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. DRAM Market Ripple Effects",
+    "Metric": "Annual DRAM capacity growth",
+    "Value": "10–15%",
+    "Source": "IDC"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. DRAM Market Ripple Effects",
+    "Metric": "Revenue per wafer: HBM vs. DDR5",
+    "Value": "3–5× higher",
+    "Source": "Multiple"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. DRAM Market Ripple Effects",
+    "Metric": "DDR5 supply impact",
+    "Value": "Shortage extending to PC/server/smartphone DRAM",
+    "Source": "IDC"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. DRAM Market Ripple Effects",
+    "Metric": "Gartner forecast (memory cost increase)",
+    "Value": "+130% by end-2026 (all memory types)",
+    "Source": "Gartner (Jun 2026)"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "7. Supply Timeline and Outlook",
+    "Scenario": "Base: shortage persists",
+    "Timeline": "Through 2027",
+    "Key Assumption": "Demand grows faster than HBM capacity additions; CoWoS remains tight"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "7. Supply Timeline and Outlook",
+    "Scenario": "Bull for suppliers: shortage extends",
+    "Timeline": "Into 2028–2030",
+    "Key Assumption": "SK Group chairman's view; wafer shortages compound"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "7. Supply Timeline and Outlook",
+    "Scenario": "Intel CEO assessment",
+    "Timeline": "\"No relief until 2028\"",
+    "Key Assumption": "Apr 2026"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "7. Supply Timeline and Outlook",
+    "Scenario": "Bear: oversupply flip",
+    "Timeline": "2027+",
+    "Key Assumption": "AI demand pulled forward then drops; all capacity additions land simultaneously"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Investment Implications",
+    "Entity": "SK Hynix (000660.KS)",
+    "HBM Exposure": "Direct; dominant",
+    "Angle": "Quality compounder; but not easily traded as ADR"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Investment Implications",
+    "Entity": "Samsung (005930.KS)",
+    "HBM Exposure": "Direct; recovery story",
+    "Angle": "Catch-up trade if HBM4 qualification holds"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Investment Implications",
+    "Entity": "Micron (MU)",
+    "HBM Exposure": "Direct; US-listed",
+    "Angle": "Most liquid pure HBM play; CHIPS Act tailwind"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Investment Implications",
+    "Entity": "TSMC (TSM)",
+    "HBM Exposure": "Indirect; CoWoS pricing power",
+    "Angle": "Advanced packaging as moat"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Investment Implications",
+    "Entity": "ASML (ASML)",
+    "HBM Exposure": "Indirect; supplies EUV to all three",
+    "Angle": "Equipment layer; less HBM-specific"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Investment Implications",
+    "Entity": "NVIDIA (NVDA)",
+    "HBM Exposure": "Buyer, not supplier",
+    "Angle": "HBM shortage limits NVIDIA's ability to sell GPUs"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "9. Data Gaps",
+    "Gap": "SK Hynix HBM4 yields by fab",
+    "Importance": "High",
+    "Notes": "Not disclosed; determines actual shipment capacity vs. plan"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "9. Data Gaps",
+    "Gap": "Samsung HBM4 qualification completeness",
+    "Importance": "High",
+    "Notes": "\"Passed\" but full allocation unclear; further failures possible"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "9. Data Gaps",
+    "Gap": "Micron HBM4 production volumes",
+    "Importance": "Medium",
+    "Notes": "Market share % known; absolute volumes not publicly disclosed"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "9. Data Gaps",
+    "Gap": "CoWoS pricing per wafer",
+    "Importance": "Medium",
+    "Notes": "Not publicly disclosed; TSMC keeps packaging ASPs private"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "9. Data Gaps",
+    "Gap": "OSAT CoWoS-like capacity ramp timelines",
+    "Importance": "Medium",
+    "Notes": "ASE/Amkor absorption speed affects non-NVIDIA AI chip supply"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "9. Data Gaps",
+    "Gap": "HBM content per Rubin GPU (confirmed)",
+    "Importance": "Low",
+    "Notes": "R100 specs not fully published; bandwidth figure ranges vary"
+  }
+]

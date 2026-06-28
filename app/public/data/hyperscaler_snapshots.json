@@ -1,0 +1,245 @@
+[
+  {
+    "date": "2026-06-27",
+    "heading": "Cloud Market Share (Q1 2026)",
+    "Provider": "AWS",
+    "Revenue": "$37.6B (Q)",
+    "Market Share": "30%",
+    "YoY Growth": "+28%",
+    "Notes": "Fastest in 15 quarters"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Cloud Market Share (Q1 2026)",
+    "Provider": "Azure",
+    "Revenue": "~$28B (Q, est.)",
+    "Market Share": "25%",
+    "YoY Growth": "+40%",
+    "Notes": "Azure + services, not full IC segment"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Cloud Market Share (Q1 2026)",
+    "Provider": "Google Cloud",
+    "Revenue": "$20.0B (Q)",
+    "Market Share": "13%",
+    "YoY Growth": "+63%",
+    "Notes": "Largest reported acceleration"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Cloud Market Share (Q1 2026)",
+    "Provider": "Oracle OCI",
+    "Revenue": "~$5B (Q, est.)",
+    "Market Share": "~4%",
+    "YoY Growth": "+93% (Q4 FY2026)",
+    "Notes": "Fastest growth rate; Stargate anchor"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Cloud Market Share (Q1 2026)",
+    "Provider": "All others",
+    "Revenue": "—",
+    "Market Share": "~28%",
+    "YoY Growth": "—",
+    "Notes": "Alibaba, Tencent, etc."
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Intelligent Cloud Segment — Quarterly Revenue",
+    "Quarter": "Q3 FY2025 (Mar 2025)",
+    "Intelligent Cloud Revenue": "$25.5B",
+    "YoY Growth": "+19%",
+    "Azure Growth": "+31%",
+    "Notes": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Intelligent Cloud Segment — Quarterly Revenue",
+    "Quarter": "Q4 FY2025 (Jun 2025)",
+    "Intelligent Cloud Revenue": "$29.9B",
+    "YoY Growth": "+26%",
+    "Azure Growth": "+39%",
+    "Notes": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Intelligent Cloud Segment — Quarterly Revenue",
+    "Quarter": "Q1 FY2026 (Sep 2025)",
+    "Intelligent Cloud Revenue": "~$31.0B est.",
+    "YoY Growth": "~+27%",
+    "Azure Growth": "~+38%",
+    "Notes": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Intelligent Cloud Segment — Quarterly Revenue",
+    "Quarter": "Q2 FY2026 (Dec 2025)",
+    "Intelligent Cloud Revenue": "$32.9B",
+    "YoY Growth": "+29%",
+    "Azure Growth": "+39%",
+    "Notes": "Cloud >$50B/quarter milestone"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Intelligent Cloud Segment — Quarterly Revenue",
+    "Quarter": "Q3 FY2026 (Mar 2026)",
+    "Intelligent Cloud Revenue": "$34.7B",
+    "YoY Growth": "+30%",
+    "Azure Growth": "+40%",
+    "Notes": "Q3 FY2026 beat; Azure 40%"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Oracle Total Cloud Revenue",
+    "Quarter": "Q2 FY2026",
+    "Total Cloud Revenue": "$8.0B",
+    "YoY Growth": "+33%",
+    "Notes": "IaaS + SaaS combined; ~half of total Oracle revenue"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Oracle Total Cloud Revenue",
+    "Quarter": "FY2026 total",
+    "Total Cloud Revenue": "—",
+    "YoY Growth": "+17% total Oracle",
+    "Notes": "Total company revenue $67.4B"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "AI Revenue Run Rate (Most Recent)",
+    "Provider": "Microsoft",
+    "AI Revenue ARR / Run Rate": "$37B",
+    "Growth": "+123% YoY",
+    "Most Recent Period": "Q3 FY2026 (Mar 2026)",
+    "Disclosure Method": "Disclosed aggregate AI ARR"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "AI Revenue Run Rate (Most Recent)",
+    "Provider": "Google Cloud",
+    "AI Revenue ARR / Run Rate": "Embedded in $20B/quarter",
+    "Growth": "+63% Cloud YoY",
+    "Most Recent Period": "Q1 2026",
+    "Disclosure Method": "Vertex AI usage; Gemini \"multi-billion\""
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "AI Revenue Run Rate (Most Recent)",
+    "Provider": "AWS",
+    "AI Revenue ARR / Run Rate": ">$15B",
+    "Growth": "~3× YoY",
+    "Most Recent Period": "Q1 2026",
+    "Disclosure Method": "Disclosed approximate run rate"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "AI Revenue Run Rate (Most Recent)",
+    "Provider": "Oracle OCI",
+    "AI Revenue ARR / Run Rate": "$18.1B (FY2026 annual)",
+    "Growth": "+77% FY2026",
+    "Most Recent Period": "FY2026 (May 2026)",
+    "Disclosure Method": "IaaS segment disclosed"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "AI Revenue Run Rate (Most Recent)",
+    "Provider": "Total (4 providers)",
+    "AI Revenue ARR / Run Rate": "~$90B+ ARR",
+    "Growth": "—",
+    "Most Recent Period": "—",
+    "Disclosure Method": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Operating Profit Comparison",
+    "Provider": "AWS",
+    "Segment Op Margin": "~38–40%",
+    "Revenue (Most Recent Q)": "$37.6B (Q1 2026)",
+    "Notes": "Most profitable major cloud"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Operating Profit Comparison",
+    "Provider": "Azure / Intelligent Cloud",
+    "Segment Op Margin": "~45–47%",
+    "Revenue (Most Recent Q)": "$34.7B (Q3 FY2026)",
+    "Notes": "Microsoft's highest-margin segment"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Operating Profit Comparison",
+    "Provider": "Google Cloud",
+    "Segment Op Margin": "~16–18% (improving)",
+    "Revenue (Most Recent Q)": "$20.0B (Q1 2026)",
+    "Notes": "Turned profitable 2023; rapidly expanding"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Operating Profit Comparison",
+    "Provider": "Oracle OCI",
+    "Segment Op Margin": "Compressed by capex cycle",
+    "Revenue (Most Recent Q)": "$5.8B IaaS (Q4 FY2026)",
+    "Notes": "FCF negative in capex build phase"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. Capex-to-Revenue Ratio: Is This Sustainable?",
+    "Provider": "Amazon (AWS only)",
+    "FY2026 Capex": "$200B total",
+    "FY2026 Revenue (est.)": "$150B+ (AWS)",
+    "Capex/Revenue Ratio": "~130% (total Amazon capex vs AWS rev)"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. Capex-to-Revenue Ratio: Is This Sustainable?",
+    "Provider": "Microsoft",
+    "FY2026 Capex": "$120–190B",
+    "FY2026 Revenue (est.)": "~$270B total",
+    "Capex/Revenue Ratio": "~45–70% of total co. revenue"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. Capex-to-Revenue Ratio: Is This Sustainable?",
+    "Provider": "Google/Alphabet",
+    "FY2026 Capex": "$175–185B",
+    "FY2026 Revenue (est.)": "~$360B total",
+    "Capex/Revenue Ratio": "~50% of total co. revenue"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "6. Capex-to-Revenue Ratio: Is This Sustainable?",
+    "Provider": "Oracle",
+    "FY2026 Capex": "$55.7B",
+    "FY2026 Revenue (est.)": "~$67B total",
+    "Capex/Revenue Ratio": "~83% of total co. revenue — highest ratio"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "7. AI Revenue Definitions and Disclosure Quality",
+    "Provider": "Microsoft",
+    "What \"AI Revenue\" Includes": "Azure OpenAI, Copilot (M365 + GitHub + Dynamics), AI infra",
+    "Disclosure Quality": "Good — aggregate ARR disclosed; usage metrics provided"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "7. AI Revenue Definitions and Disclosure Quality",
+    "Provider": "AWS",
+    "What \"AI Revenue\" Includes": "Bedrock inference + Trainium silicon lease revenue",
+    "Disclosure Quality": "Medium — run rate disclosed; no quarterly breakdown"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "7. AI Revenue Definitions and Disclosure Quality",
+    "Provider": "Google Cloud",
+    "What \"AI Revenue\" Includes": "Vertex AI, Gemini API, Enterprise AI Solutions, AI Infra",
+    "Disclosure Quality": "Medium-poor — revenue not broken out; usage metrics as proxies"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "7. AI Revenue Definitions and Disclosure Quality",
+    "Provider": "Oracle OCI",
+    "What \"AI Revenue\" Includes": "IaaS GPU clusters, Stargate infrastructure, AI services",
+    "Disclosure Quality": "Good — OCI IaaS revenue disclosed quarterly; RPO disclosed"
+  }
+]
