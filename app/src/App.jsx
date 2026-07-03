@@ -9,14 +9,17 @@ import HyperscalerGraph from './components/HyperscalerGraph.jsx'
 import PowerMap         from './components/PowerMap.jsx'
 import EcosystemFlow    from './components/EcosystemFlow.jsx'
 import ErrorBoundary    from './components/ErrorBoundary.jsx'
+import PortfolioPanel   from './components/PortfolioPanel.jsx'
+import LogPanel         from './components/LogPanel.jsx'
 
-// 8 → 5 tabs. Flow absorbs Hyperscalers; Model absorbs Stack+Constraints; Research absorbs Scenarios+Wiki
 const VIEWS = [
-  { id: 'Flow',     label: 'Flow',     sub: 'Supply chain' },
-  { id: 'Signals',  label: 'Signals',  sub: 'Investments' },
-  { id: 'Power',    label: 'Power',    sub: 'Global demand' },
-  { id: 'Model',    label: 'Model',    sub: 'Stack & constraints' },
-  { id: 'Research', label: 'Research', sub: 'Scenarios & wiki' },
+  { id: 'Flow',      label: 'Flow',      sub: 'Supply chain' },
+  { id: 'Signals',   label: 'Signals',   sub: 'Investments' },
+  { id: 'Power',     label: 'Power',     sub: 'Global demand' },
+  { id: 'Model',     label: 'Model',     sub: 'Stack & constraints' },
+  { id: 'Research',  label: 'Research',  sub: 'Scenarios & wiki' },
+  { id: 'Portfolio', label: 'Portfolio', sub: 'Equity positions' },
+  { id: 'Log',       label: 'Log',       sub: 'Books & podcasts' },
 ]
 
 async function loadJSON(path) {
@@ -187,7 +190,6 @@ export default function App() {
             <span>Macro scenarios and wiki reference pages</span>
           </div>
 
-          {/* Sub-toggle */}
           <div className="filter-row" style={{ marginBottom: 'var(--sp6)' }}>
             <span className="filter-label">View</span>
             <button className={`filter-btn${researchSub === 'scenarios' ? ' active' : ''}`} onClick={() => setResearchSub('scenarios')}>
@@ -201,6 +203,28 @@ export default function App() {
 
           {researchSub === 'scenarios' && data.scenarios && <Scenarios scenarios={data.scenarios} />}
           {researchSub === 'wiki' && data.snapshots && <SnapshotIndex snapshots={data.snapshots} />}
+        </>
+      )}
+
+      {/* ── Portfolio ───────────────────────────────────────────────── */}
+      {view === 'Portfolio' && (
+        <>
+          <div className="section-title">
+            Portfolio
+            <span>20 positions · copy analysis commands to run in Claude Code</span>
+          </div>
+          <PortfolioPanel />
+        </>
+      )}
+
+      {/* ── Log (Books + Podcasts) ──────────────────────────────────── */}
+      {view === 'Log' && (
+        <>
+          <div className="section-title">
+            Log
+            <span>Queue books and podcasts · generate wiki commands</span>
+          </div>
+          <LogPanel />
         </>
       )}
     </div>
