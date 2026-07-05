@@ -84,6 +84,13 @@
     "oneliner": "Vertiv has $15B+ backlog and guides +30% organic growth for 2026; NVIDIA's Rubin NVL72 rack at 120kW requires direct-to-chip liquid cooling; air cooling can only handle ~40–50kW per rack. Every new AI DC from 2025 onward is liquid-cooled."
   },
   {
+    "file": "data-meta-compute-cloud-pivot-2026-07-05.md",
+    "date": "2026-07-05",
+    "title": "Data: Meta's Pivot to Renting Out AI Cloud Compute ('Meta Compute')",
+    "tags": "[meta, meta-compute, cloud, ai-infrastructure, neocloud, coreweave, nebius, hyperion, data]",
+    "oneliner": ""
+  },
+  {
     "file": "data-power-equipment-ai-dc-2026-06-27.md",
     "date": "2026-06-27",
     "title": "Data: Power Equipment & Grid Infrastructure — AI Data Centre Supply Chain (June 2026)",

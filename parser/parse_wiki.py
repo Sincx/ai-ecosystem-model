@@ -13,8 +13,9 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-WIKI_DIR = Path("C:/Users/Mike/Documents/Fred/Fred/wiki/ai-tech")
-OUT_DIR  = Path("C:/LLM wiki/web/app/public/data")
+WIKI_DIR   = Path("C:/Users/Mike/Documents/Fred/Fred/wiki/ai-tech")
+MODELS_DIR = Path("C:/Users/Mike/Documents/Fred/Fred/wiki/finance/models")
+OUT_DIR    = Path("C:/LLM wiki/web/app/public/data")
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -305,6 +306,34 @@ CONSTRAINT_EDGES = [
 # Main
 # ---------------------------------------------------------------------------
 
+def build_finance_models():
+    """Scan wiki/finance/models for model-*.md pages and return full markdown
+    bodies (frontmatter stripped) for client-side rendering. Unlike the ai-tech
+    snapshot index, this keeps the full body — these pages are qualitative
+    scenario models (bull/neutral/bear tables) too varied to flatten into a
+    fixed JSON schema, so react-markdown renders them client-side instead."""
+    models = []
+    if not MODELS_DIR.exists():
+        print(f"WARNING: Models dir not found: {MODELS_DIR}")
+        return models
+    for f in sorted(MODELS_DIR.glob("model-*.md"), reverse=True):
+        m = re.search(r'(\d{4}-\d{2}-\d{2})\.md$', f.name)
+        date = m.group(1) if m else "unknown"
+        text = f.read_text(encoding="utf-8")
+        meta, body = parse_frontmatter(text)
+        models.append({
+            "file": f.name,
+            "slug": f.stem,
+            "date": date,
+            "title": meta.get("title", f.stem).strip('"'),
+            "tags": meta.get("tags", ""),
+            "updated": meta.get("updated", date),
+            "oneliner": extract_oneliner(body),
+            "body": body.strip(),
+        })
+    return models
+
+
 def build_snapshot_index():
     """Scan wiki for all dated data pages and return an index."""
     index = []
@@ -344,6 +373,9 @@ def main():
 
     snapshot_index = build_snapshot_index()
     write_json(OUT_DIR / "snapshot_index.json",     snapshot_index)
+
+    finance_models = build_finance_models()
+    write_json(OUT_DIR / "finance_models.json",     finance_models)
 
     # Per-page detailed table extraction
     hyperscaler_snapshots = []

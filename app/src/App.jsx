@@ -3,6 +3,7 @@ import './styles.css'
 import LayerStack       from './components/LayerStack.jsx'
 import InvestmentTable  from './components/InvestmentTable.jsx'
 import Scenarios        from './components/Scenarios.jsx'
+import FinanceModels    from './components/FinanceModels.jsx'
 import ConstraintEdges  from './components/ConstraintEdges.jsx'
 import SnapshotIndex    from './components/SnapshotIndex.jsx'
 import HyperscalerGraph from './components/HyperscalerGraph.jsx'
@@ -30,7 +31,7 @@ async function loadJSON(path) {
 export default function App() {
   const [view,       setView]       = useState('Flow')
   const [modelSub,   setModelSub]   = useState('stack')      // 'stack' | 'constraints'
-  const [researchSub, setResearchSub] = useState('scenarios') // 'scenarios' | 'wiki'
+  const [researchSub, setResearchSub] = useState('scenarios') // 'scenarios' | 'models' | 'wiki'
   const [flowSub,    setFlowSub]    = useState('flow')       // 'flow' | 'hyperscalers'
   const [data,       setData]       = useState({})
   const [meta,       setMeta]       = useState(null)
@@ -43,9 +44,10 @@ export default function App() {
       loadJSON('/data/scenarios.json'),
       loadJSON('/data/constraint_edges.json'),
       loadJSON('/data/snapshot_index.json'),
+      loadJSON('/data/finance_models.json'),
       loadJSON('/data/meta.json'),
-    ]).then(([layers, signals, scenarios, edges, snapshots, meta]) => {
-      setData({ layers, signals, scenarios, edges, snapshots })
+    ]).then(([layers, signals, scenarios, edges, snapshots, financeModels, meta]) => {
+      setData({ layers, signals, scenarios, edges, snapshots, financeModels: financeModels || [] })
       setMeta(meta)
       setLoading(false)
     })
@@ -193,6 +195,10 @@ export default function App() {
             <button className={`filter-btn${researchSub === 'scenarios' ? ' active' : ''}`} onClick={() => setResearchSub('scenarios')}>
               Scenarios
             </button>
+            <button className={`filter-btn${researchSub === 'models' ? ' active' : ''}`} onClick={() => setResearchSub('models')}>
+              Scenario Models
+              {data.financeModels && <span style={{ marginLeft: 6, fontSize: '0.68rem', opacity: 0.7 }}>{data.financeModels.length}</span>}
+            </button>
             <button className={`filter-btn${researchSub === 'wiki' ? ' active' : ''}`} onClick={() => setResearchSub('wiki')}>
               Wiki Pages
               {data.snapshots && <span style={{ marginLeft: 6, fontSize: '0.68rem', opacity: 0.7 }}>{data.snapshots.length}</span>}
@@ -200,6 +206,7 @@ export default function App() {
           </div>
 
           {researchSub === 'scenarios' && data.scenarios && <Scenarios scenarios={data.scenarios} />}
+          {researchSub === 'models' && <FinanceModels models={data.financeModels || []} />}
           {researchSub === 'wiki' && data.snapshots && <SnapshotIndex snapshots={data.snapshots} />}
         </>
       )}
