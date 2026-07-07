@@ -253,7 +253,7 @@ INVESTMENT_SIGNALS = [
     {"entity": "Micron",          "ticker": "MU",        "layer": "L2", "tier": 2, "stars": 4, "rationale": "21% HBM share growing; sole US-listed HBM play; HBM4 ramp 2026–2027; beneficiary of SK Hynix capacity constraints"},
     {"entity": "Broadcom",        "ticker": "AVGO",      "layer": "L3", "tier": 2, "stars": 4, "rationale": "$8.4B Q1 AI revenue (+106%); $73B backlog; 70% ASIC market share; $100B/2027 target; networking silicon also growing"},
     {"entity": "Quanta Services", "ticker": "PWR",       "layer": "L0", "tier": 3, "stars": 3, "rationale": "$48.5B record backlog; electrical construction; AI DC build is primary driver. Risk: execution, labour"},
-    {"entity": "CoreWeave",       "ticker": "CRWV",      "layer": "L4", "tier": 3, "stars": 3, "rationale": "$99.4B RPO; neo-cloud GPU rental. Binary risk: $22B+ GPU-collateralised debt; NVIDIA customer concentration"},
+    {"entity": "CoreWeave",       "ticker": "CRWV",      "layer": "L4", "tier": 3, "stars": 3, "rationale": "$99.4B RPO; neo-cloud GPU rental. Binary risk: $22B+ GPU-collateralised debt; NVIDIA customer concentration. New risk (Jul 2026): Meta — CRWV's #2 customer at $35.2B — reportedly building 'Meta Compute' to resell its own excess capacity, a customer-to-competitor flip; CRWV fell 13.9% on the report"},
     {"entity": "AMD",             "ticker": "AMD",       "layer": "L3", "tier": 3, "stars": 3, "rationale": "MI350X competitive on specs; $16.6B DC revenue FY2025. Ceiling: CoWoS ~8% allocation; CUDA ecosystem moat"},
     {"entity": "Marvell",         "ticker": "MRVL",      "layer": "L3", "tier": 3, "stars": 3, "rationale": "#2 ASIC design partner ~25% share; Amazon Trainium next-gen; growing but less diversified than Broadcom"},
 ]
@@ -281,8 +281,8 @@ SCENARIOS = [
     {
         "name": "Bear Case",
         "probability": 20,
-        "description": "Demand plateau: enterprise AI adoption stalls; hyperscaler AI revenue misses expectations; capex pulled back. ASIC substitution accelerates faster than expected. CoreWeave debt refinancing fails.",
-        "implications": ["NVIDIA inference revenue collapses; GPU spot prices fall", "CoreWeave binary risk realises; contagion to GPU-collateralised credit markets", "L0 order books survive (physical infrastructure contracts, not compute contracts)"],
+        "description": "Demand plateau: enterprise AI adoption stalls; hyperscaler AI revenue misses expectations; capex pulled back. ASIC substitution accelerates faster than expected. CoreWeave debt refinancing fails. Meta Compute (reported Jul 2026) launches and wins neocloud overflow share while Meta lets its ~$48B combined CoreWeave/Nebius contracts lapse — a double hit of lost anchor customer plus new competitor.",
+        "implications": ["NVIDIA inference revenue collapses; GPU spot prices fall", "CoreWeave binary risk realises; contagion to GPU-collateralised credit markets", "L0 order books survive (physical infrastructure contracts, not compute contracts)", "CoreWeave/Nebius lose Meta as both customer and gain it as competitor simultaneously"],
         "color": "#ef4444",
     },
 ]

@@ -24,11 +24,12 @@
   {
     "name": "Bear Case",
     "probability": 20,
-    "description": "Demand plateau: enterprise AI adoption stalls; hyperscaler AI revenue misses expectations; capex pulled back. ASIC substitution accelerates faster than expected. CoreWeave debt refinancing fails.",
+    "description": "Demand plateau: enterprise AI adoption stalls; hyperscaler AI revenue misses expectations; capex pulled back. ASIC substitution accelerates faster than expected. CoreWeave debt refinancing fails. Meta Compute (reported Jul 2026) launches and wins neocloud overflow share while Meta lets its ~$48B combined CoreWeave/Nebius contracts lapse — a double hit of lost anchor customer plus new competitor.",
     "implications": [
       "NVIDIA inference revenue collapses; GPU spot prices fall",
       "CoreWeave binary risk realises; contagion to GPU-collateralised credit markets",
-      "L0 order books survive (physical infrastructure contracts, not compute contracts)"
+      "L0 order books survive (physical infrastructure contracts, not compute contracts)",
+      "CoreWeave/Nebius lose Meta as both customer and gain it as competitor simultaneously"
     ],
     "color": "#ef4444"
   }
