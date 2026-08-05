@@ -63,6 +63,13 @@
     "oneliner": "This page answers: **who are the anchor customers of the AI infrastructure build-out, what are they spending, and how are they monetising AI?**"
   },
   {
+    "file": "data-gpu-costs-lease-pricing-2026-08-05.md",
+    "date": "2026-08-05",
+    "title": "Data: GPU Costs & Lease Pricing — Hardware, Cloud Rental, and Hyperscaler Economics",
+    "tags": "[gpu-pricing, cloud-gpu, nvidia, hyperscaler-capex, data, research, h100, b200, coreweave]",
+    "oneliner": ""
+  },
+  {
     "file": "data-hbm-supply-chain-2026-06-27.md",
     "date": "2026-06-27",
     "title": "Data: HBM Memory Supply Chain — SK Hynix / Samsung / Micron / CoWoS (June 2026)",
@@ -96,6 +103,13 @@
     "title": "Data: Power Equipment & Grid Infrastructure — AI Data Centre Supply Chain (June 2026)",
     "tags": "[power-equipment, data-centres, eaton, ge-vernova, quanta-services, vertiv, transformer, switchgear, ups, ai-infrastructure, layer-0]",
     "oneliner": "Eaton DC orders +240% YoY, GE Vernova $163B backlog, Quanta $48.5B backlog, Vertiv $15B+ backlog. Combined these four companies have more than $248B in signed AI infrastructure work. No ASIC substitution risk exists at this layer — electricity is always required regardless of chip architecture."
+  },
+  {
+    "file": "data-token-generation-pricing-gpu-comparison-2026-08-05.md",
+    "date": "2026-08-05",
+    "title": "Data: Token Generation, Pricing & GPU/Provider Comparison (August 2026)",
+    "tags": "[token-pricing, inference, gpu-throughput, llm-api, data, research, hyperscaler, neocloud]",
+    "oneliner": ""
   },
   {
     "file": "data-tsmc-cowos-2026-06-27.md",
