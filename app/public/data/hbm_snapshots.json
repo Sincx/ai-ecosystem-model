@@ -190,6 +190,48 @@
   },
   {
     "date": "2026-06-27",
+    "heading": "US IPO (new, 2026-07-10/12)",
+    "Metric": "IPO proceeds",
+    "Value": "$26.5B",
+    "Notes": "Largest-ever US listing by a foreign company, surpassing Alibaba's 2014 $25B record"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "US IPO (new, 2026-07-10/12)",
+    "Metric": "Listing",
+    "Value": "Nasdaq (ADRs); already listed in Seoul",
+    "Notes": "Trading began 2026-07-10"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "US IPO (new, 2026-07-10/12)",
+    "Metric": "First-day pop",
+    "Value": "+13%",
+    "Notes": "2026-07-12"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "US IPO (new, 2026-07-10/12)",
+    "Metric": "Use of proceeds",
+    "Value": "Chipmaking facility construction in South Korea",
+    "Notes": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "US IPO (new, 2026-07-10/12)",
+    "Metric": "NVIDIA partnership (Jun 2026)",
+    "Value": "Technology partnership to advance next-gen memory aligned with NVIDIA's AI infrastructure roadmap",
+    "Notes": "Separate announcement"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "US IPO (new, 2026-07-10/12)",
+    "Metric": "2026 HBM supply status",
+    "Value": "Entire 2026 supply sold out (CFO confirmed)",
+    "Notes": "Reconfirms existing \"58% share, all 2026 sold\" data point"
+  },
+  {
+    "date": "2026-06-27",
     "heading": "Capacity Expansion Plans",
     "Facility": "M15X",
     "Location": "Cheongju, Korea",
@@ -345,6 +387,145 @@
     "Product": "HBM4E",
     "Status": "Targeting 2027–2028",
     "Specs": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Q3 FY2026 Results (new, 2026-06-24) and Capex Update",
+    "Metric": "Q3 FY2026 revenue",
+    "Value": "$41.5B",
+    "Notes": "+74% QoQ, +346% YoY; largest sequential jump in company history ($17.6B)"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Q3 FY2026 Results (new, 2026-06-24) and Capex Update",
+    "Metric": "Non-GAAP EPS",
+    "Value": "$25.11",
+    "Notes": "vs. ~$20.49 analyst estimate"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Q3 FY2026 Results (new, 2026-06-24) and Capex Update",
+    "Metric": "Gross margin",
+    "Value": "84.9%",
+    "Notes": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Q3 FY2026 Results (new, 2026-06-24) and Capex Update",
+    "Metric": "Q4 FY2026 guidance",
+    "Value": "$50B revenue, ~86% gross margin",
+    "Notes": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Q3 FY2026 Results (new, 2026-06-24) and Capex Update",
+    "Metric": "Stock reaction",
+    "Value": "+14.6% on report (2026-06-24)",
+    "Notes": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Q3 FY2026 Results (new, 2026-06-24) and Capex Update",
+    "Metric": "FY2026 capex",
+    "Value": ">$25B",
+    "Notes": "Raised from $20B (Dec 2025 guidance), which was itself raised from $18B — third upward revision in ~6 months"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Q3 FY2026 Results (new, 2026-06-24) and Capex Update",
+    "Metric": "Driver",
+    "Value": "New multi-year Strategic Customer Agreements (SCAs)",
+    "Notes": "Locks in future volume/pricing, cited as basis for \"financial durability\""
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Supplier": "Shin-Etsu Chemical",
+    "Global Market Share": "~28%",
+    "2025 Silicon Wafer Revenue": "~$3.9B (JPY 580B)",
+    "Gross Margin": "28%"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Supplier": "SUMCO",
+    "Global Market Share": "~25%",
+    "2025 Silicon Wafer Revenue": "~$2.5B (JPY 380B)",
+    "Gross Margin": "24%"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Supplier": "GlobalWafers",
+    "Global Market Share": "~15%",
+    "2025 Silicon Wafer Revenue": "~$2.2B (TWD 71B)",
+    "Gross Margin": "26%"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Supplier": "Siltronic",
+    "Global Market Share": "~12%",
+    "2025 Silicon Wafer Revenue": "~$1.6B (EUR 1.5B)",
+    "Gross Margin": "15%"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Supplier": "SK Siltron",
+    "Global Market Share": "~11%",
+    "2025 Silicon Wafer Revenue": "—",
+    "Gross Margin": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Supplier": "Others (incl. Chinese entrants)",
+    "Global Market Share": "~9%",
+    "2025 Silicon Wafer Revenue": "—",
+    "Gross Margin": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Metric": "Micron investment",
+    "Value": "Up to $500M (part of a broader $3B US-supply-chain package)",
+    "Source": "GlobeNewswire, DCD, KXII"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Metric": "Structure",
+    "Value": "Financing + 10-year raw silicon wafer supply agreement",
+    "Source": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Metric": "Site",
+    "Value": "GlobalWafers America, Sherman, Texas — 300mm raw silicon wafer facility",
+    "Source": "—"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Metric": "Capacity impact",
+    "Value": "Facility doubles to ~600,000 12-inch wafers/month on completion",
+    "Source": "Taipei Times"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Metric": "Significance (GlobalWafers' own characterisation)",
+    "Value": "\"Most significant supply deal in GlobalWafers' history\" by value and duration",
+    "Source": "Company statement"
+  },
+  {
+    "date": "2026-06-27",
+    "heading": "Upstream Supply Chain — Raw Silicon Wafers (new, 2026-07-09)",
+    "Metric": "Also included in Micron's $3B package",
+    "Value": "Broader US semiconductor ecosystem investment; Micron raised total planned US investment to $250B through 2035 (+$50B vs. prior guidance)",
+    "Source": "CNBC, 2026-07-09"
   },
   {
     "date": "2026-06-27",

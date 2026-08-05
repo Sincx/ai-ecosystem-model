@@ -285,6 +285,27 @@ SCENARIOS = [
         "implications": ["NVIDIA inference revenue collapses; GPU spot prices fall", "CoreWeave binary risk realises; contagion to GPU-collateralised credit markets", "L0 order books survive (physical infrastructure contracts, not compute contracts)", "CoreWeave/Nebius lose Meta as both customer and gain it as competitor simultaneously"],
         "color": "#ef4444",
     },
+    {
+        "name": "Patel 10×",
+        "probability": 10,
+        "description": "Compute scarcity: Lab revenues sustain ~10×/yr growth while supply caps at ~3×/yr. Margin expansion and inference allocation hit ceilings. GPU rental prices rise 10–15× ($15–25/hr H100). Startups priced out; market consolidates to 2–3 frontier labs. Token prices still fall (efficiency) but GPU-hour prices rise (scarcity). Power equipment demand accelerates.",
+        "implications": ["GPU rental reprices to $15–25/hr; NVIDIA DC revenue $250–300B", "Total AI capex $1.2–1.5T/yr; power equipment biggest winners", "CoreWeave extremely bullish — compute scarcity makes GPU-collateralised debt safe", "Market structure: oligopoly of 2–3 frontier labs; mid-tier labs exit"],
+        "color": "#f59e0b",
+    },
+    {
+        "name": "Burry Bust",
+        "probability": 10,
+        "description": "Circular financing unwind: ~2/3 of AI trifecta spend is circular (chipmakers fund labs, labs buy chips, hyperscalers fund labs, labs buy cloud). A major lab misses revenue targets by >30%, triggering cascade. GPU spot prices fall 40–60%. GPU-collateralised debt faces collateral impairment. Chip equity sells off 30–50%. Power equipment less affected (non-cancellable order books).",
+        "implications": ["GPU spot falls to $1.00–1.50/hr; NVIDIA DC revenue $90–120B", "CoreWeave restructuring — GPU-collateralised debt impaired", "Power equipment resilient on signed non-cancellable backlogs", "Key test: monitor non-circular revenue ratio across AI trifecta"],
+        "color": "#7c3aed",
+    },
+    {
+        "name": "Evans Equilibrium",
+        "probability": 0,
+        "description": "Token commoditisation (value-capture overlay, not a separate capex scenario): once 2025–2026 orders deliver capacity in 2027–2028, supply normalises. Competition drives token prices toward marginal cost. Value capture by layer: L0–L1 durable, L2 high near-term then normalises, L3 training durable / inference erodes, L4 moderate, L5 low (commoditised), application layer highest long-term.",
+        "implications": ["L0–L1 power/DC infrastructure: sustained pricing power", "L2 HBM: pricing power while shortage persists, erodes post-2028", "L3 NVIDIA: training moat holds, inference loses to ASICs", "L5 foundation models commoditise — 'LLMs become databases'", "Application layer (above L5) captures most long-term value"],
+        "color": "#64748b",
+    },
 ]
 
 

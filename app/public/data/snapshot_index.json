@@ -66,7 +66,7 @@
     "file": "data-hbm-supply-chain-2026-06-27.md",
     "date": "2026-06-27",
     "title": "Data: HBM Memory Supply Chain — SK Hynix / Samsung / Micron / CoWoS (June 2026)",
-    "tags": "[hbm, memory, sk-hynix, samsung, micron, cowos, tsmc, advanced-packaging, ai-supply-chain, dram, semiconductors]",
+    "tags": "[hbm, memory, sk-hynix, samsung, micron, cowos, tsmc, advanced-packaging, ai-supply-chain, dram, semiconductors, globalwafers, silicon-wafers]",
     "oneliner": "**Investment thesis in one line:** HBM is where the AI infrastructure investment funnel narrows to a single pipe. SK Hynix controls ~58% of that pipe with 72% operating margins. The shortage is structural, not cyclical, and is expected to persist until at least 2027–2028."
   },
   {
@@ -87,7 +87,7 @@
     "file": "data-meta-compute-cloud-pivot-2026-07-05.md",
     "date": "2026-07-05",
     "title": "Data: Meta's Pivot to Renting Out AI Cloud Compute ('Meta Compute')",
-    "tags": "[meta, meta-compute, cloud, ai-infrastructure, neocloud, coreweave, nebius, hyperion, data]",
+    "tags": "[meta, meta-compute, cloud, ai-infrastructure, neocloud, coreweave, nebius, hyperion, muse-spark, data]",
     "oneliner": ""
   },
   {
